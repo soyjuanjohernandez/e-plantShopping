@@ -62,7 +62,7 @@ body {
 /* Product Card */
 .product-card {
     flex: 0 0 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap */
-    max-width: calc(26.33% - 20px); /* Adjust max-width for 3 cards per row with 20px gap */
+
     margin-bottom: 20px;
     padding: 20px;
     background-color: #fff;
@@ -221,7 +221,7 @@ body {
   @media (max-width: 1200px) {
     .product-card {
       flex: 1 1 calc(33.33% - 20px); /* Adjust width for 3 cards per row with 20px gap on medium screens */
-      max-width: calc(33.33% - 20px); /* Adjust max-width for 3 cards per row with 20px gap on medium screens */
+
     }
   }
   
@@ -249,4 +249,14 @@ body {
       .ul div {
         text-align: center; /* Align text to the center */
       }
+  }
+
+
+  .category-plants{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 30px;
   }
